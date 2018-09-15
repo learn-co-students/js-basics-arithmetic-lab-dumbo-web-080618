@@ -8,8 +8,8 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-let newID = 1000000000 + oldID;
-let ageIsValid = Number.isInteger(currentAge);
+ let newID = 1000000000 + oldID;
+ let ageIsValid = Number.isInteger(currentAge);
 //Math.random() returns a number between 0 and 0.999...,
 //which we multiply by 10 to give us a number between 0 and 9.999
 //.... We then pass that number to Math.floor(),
@@ -19,4 +19,5 @@ let ageIsValid = Number.isInteger(currentAge);
 
 let randomNumber = Math.floor(Math.random() * 10) + 10;
 let randomInteger = randomNumber;
-let randomUserID = Math.max(Math.min(1000000001) + 19);
+let minMaxNum = Math.max(Math.min(1000000001) + 19);
+let randomUserID = Math.floor(Math.random(10) * 1) + minMaxNum;
