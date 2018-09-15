@@ -17,7 +17,7 @@ You should NOT try to redefine any of the above variables.
 //That's one less than the desired range (1 to 20),
 //so we add 11 at the end of the equation.
 
-let randomNumber = Math.floor(Math.random() * 10) + 10;
+let randomNumber = Math.floor(Math.random() * 10) + 11;
 let randomInteger = randomNumber;
 let minMaxNum = Math.max(Math.min(1000000001) + 19);
 let randomUserID = Math.floor(Math.random(10) * 1) + minMaxNum;
